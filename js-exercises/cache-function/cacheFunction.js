@@ -1,6 +1,0 @@
-function cacheFunction() {
-}
-
-export {
-  cacheFunction,
-};

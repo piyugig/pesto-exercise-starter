@@ -2,7 +2,7 @@ function isTriangle(...args) {
   try {
     for (const element of args) {
       if (typeof element !== 'number') {
-        throw new Error(`Expected number for agrument, got ${element} of type ${typeof element}`);
+        throw new Error(`Expected number, got ${element} of type ${typeof element}`);
       }
     }
     const [line1, line2, line3] = [...args];
